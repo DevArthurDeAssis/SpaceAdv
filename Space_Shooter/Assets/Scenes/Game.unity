@@ -5956,6 +5956,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6086441540006976752, guid: c2cee8384a756aa42ba2cfafc5bcf5b7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6863244490709177752, guid: c2cee8384a756aa42ba2cfafc5bcf5b7, type: 3}
       propertyPath: shotCount
       value: 0.15
