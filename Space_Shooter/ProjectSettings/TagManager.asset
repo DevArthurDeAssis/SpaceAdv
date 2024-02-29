@@ -19,8 +19,8 @@ TagManager:
   - ShotPlayer
   - ShotEnemy
   - PostProcessing
-  - 
-  - 
+  - Player2
+  - ShotPlayer2
   - 
   - 
   - 
@@ -44,9 +44,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: PlayerShot
+  - name: PlayerShot2
     uniqueID: 559099989
     locked: 0
-  - name: Player
+  - name: Player2
     uniqueID: 2832818955
     locked: 0
