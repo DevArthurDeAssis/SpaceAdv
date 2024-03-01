@@ -504,8 +504,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583409089}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.9, y: 146.16347, z: -6479.9995}
-  m_LocalScale: {x: 34.391415, y: 34.391415, z: 72}
+  m_LocalPosition: {x: 0.9, y: 440.7, z: -6479.9995}
+  m_LocalScale: {x: 248.77376, y: 34.391415, z: 72}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 213300857}
@@ -688,8 +688,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.9255142, y: 146.26}
-  m_SizeDelta: {x: 87.49, y: 19.73}
+  m_AnchoredPosition: {x: 2.36, y: 440.26}
+  m_SizeDelta: {x: 664.76, y: 19.73}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1055063915
 GameObject:
@@ -703,7 +703,7 @@ GameObject:
   - component: {fileID: 1055063916}
   m_Layer: 0
   m_Name: EnemySpawner
-  m_TagString: Untagged
+  m_TagString: EnemySpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -729,6 +729,7 @@ MonoBehaviour:
   chargeTime: 5
   enemiesQtd: 0
   bossAnimation: {fileID: 3320301187787128092, guid: fe9db7f251bfa8b4cae82c641c2e770c, type: 3}
+  boss: {fileID: 93477965}
 --- !u!4 &1055063917
 Transform:
   m_ObjectHideFlags: 0
@@ -6201,7 +6202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5068672340331728182, guid: 7fafceb0d33b32a46949f6d322bc348e, type: 3}
       propertyPath: playerHealth
-      value: 500
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5068672340331728182, guid: 7fafceb0d33b32a46949f6d322bc348e, type: 3}
       propertyPath: destroyEffect

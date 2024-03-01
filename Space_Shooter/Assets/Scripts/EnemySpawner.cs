@@ -19,6 +19,8 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField] private GameObject bossAnimation;
     private bool bossCreated;
 
+    [SerializeField] private GameObject boss;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +38,8 @@ public class EnemySpawner : MonoBehaviour
         {
             SpawnBoss();
         }
+
+        
     }
 
     private void SpawnBoss()
@@ -50,8 +54,24 @@ public class EnemySpawner : MonoBehaviour
             GameObject animBoss = Instantiate(bossAnimation, Vector3.zero, transform.rotation);
             Destroy(animBoss, 4.5f);
             bossCreated = true;
+            //boss.SetActive(true);
+            
         }
     
+    }
+
+    public void AtivaBoss()
+    {
+        boss.SetActive(true);
+    }
+
+
+    void ChamarBoss()
+    {
+        GameObject animBoss = Instantiate(bossAnimation, Vector3.zero, transform.rotation);
+        Destroy(animBoss, 4.5f);
+        bossCreated = true;
+        //boss.SetActive(true);
     }
 
     public void PointsToGive(int points)
