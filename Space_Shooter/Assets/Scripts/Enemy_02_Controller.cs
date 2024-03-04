@@ -65,9 +65,9 @@ public class Enemy_02_Controller : Enemies
 
                     shotInst.GetComponent<Rigidbody2D>().velocity = direction * shotSpeed;
 
-                    //float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+                    float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
-                    //shotInst.transform.rotation = Quaternion.Euler(0f, 0f, angle);
+                    shotInst.transform.rotation = Quaternion.Euler(0f, 0f, angle);
 
                     waitTime = Random.Range(1.5f, 2f);
                 }

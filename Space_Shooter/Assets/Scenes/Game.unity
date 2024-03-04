@@ -903,6 +903,7 @@ MonoBehaviour:
   enemies:
   - {fileID: 4319989696244747576, guid: f49f82cfd61d8ce4b80cce757ae4755b, type: 3}
   - {fileID: 7526435225624593160, guid: 52c4b12f57ceee347bfa8d14bf503063, type: 3}
+  - {fileID: 7526435225624593160, guid: 52c4b12f57ceee347bfa8d14bf503063, type: 3}
   points: 0
   level: 1
   levelBase: 20
