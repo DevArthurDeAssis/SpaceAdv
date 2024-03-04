@@ -99,16 +99,16 @@ public class EnemySpawner : MonoBehaviour
         {
             int qtdDifficulty = level * 4;
             
-            //int attempt = 0;
+            int attempt = 0;
 
             while (enemiesQtd < qtdDifficulty)
             {
-                //attempt++;
+                attempt++;
 
-                //if (attempt > 200)
-                //{
-                //    break;
-                //}
+                if (attempt > 200)
+                {
+                   break;
+                }
 
                 GameObject enemyCreated;
                 float chance = Random.Range(0, level);
